@@ -32,11 +32,17 @@ If your IP/localhost is blocked:
 ## 🌐 5. Subdomain Enumeration
 
 `sublist3r -d example.com > sublist3r.txt`
-`amass enum -d example.com | cut -d ' ' -f1 > amass.txt`
+
+`amass enum -d example.com | cut -d ' ' -f1 > amass.txt`\
+
 `amass enum -d example.com | grep '(FQDN)' | cut -d ' ' -f1 | sort -u > amass_fqdn.txt`
+
 `assetfinder example.com > assetfinder.txt`
+
 `subfinder -d example.com -o subfinder.txt`
+
 `python3 /path/to/knockpy/knockpy.py example.com > knockpy.txt`
+
 `dig example.com > dig.txt`
 
 ### ➕ Merge All:
@@ -49,6 +55,7 @@ If your IP/localhost is blocked:
 ### Using `httprobe`:
 
 `cat merged_subdomains.txt | httprobe > live.txt`
+
 `cat merged_subdomains.txt | httprobe -s -p https:443 | sed 's/https\?:\/\///' | tr -d ' :443' > clean_live.txt`
 
 
@@ -67,7 +74,9 @@ If your IP/localhost is blocked:
 ## 📌 8. Parameter Discovery
 
 `paramspider -d example.com`
+
 `arjun -u https://example.com`
+
 # Alternative (if above tools fail):
 (echo "example.com" | gau --subs; echo "example.com" | waybackurls) | grep '=' 
 
@@ -76,7 +85,9 @@ If your IP/localhost is blocked:
 ## 📁 9. Directory Bruteforcing
 
 `ffuf -u http://targetsite.com/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt`
+
 `gobuster dir -u http://targetsite.com/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -t 50 -o gobuster_results.txt`
+
 `python3 dirsearch.py -u http://targetsite.com/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -t 50 -e php,html,txt -o dirsearch_results.txt`
 
 ### ➕ Recursive Bruteforce:
@@ -88,7 +99,9 @@ If your IP/localhost is blocked:
 ## 🕰️ 10. Wayback Machine URLs
 
 `echo example.com | waybackurls > wayback_urls.txt`
+
 `grep -E "\.php|\.html|\.js" wayback_urls.txt > wayback_results.txt`
+
 `grep "?=" wayback_urls.txt | tee wayback_params.txt`
 
 ---
@@ -96,6 +109,7 @@ If your IP/localhost is blocked:
 ## 🔍 11. JavaScript Analysis
 
 `getJS --url https://example.com --output jsfiles.txt`
+
 `jsparser -j jsfiles.txt -o endpoints_from_js.txt`
 
 ---
@@ -113,13 +127,17 @@ If your IP/localhost is blocked:
 ### Nuclei:
 
 `nuclei -u https://example.com -t ~/.nuclei-templates -o nuclei_results.txt`
+
 `nuclei -u https://example.com -t cves/ -o cve_results.txt`
+
 `nuclei -u https://example.com -t misconfigurations/ -o misconfig_results.txt`
+
 cat urls.txt | nuclei -t technologies/ -o tech_results.txt`
 
 ### Invicti:
 
 `invicti -u example.com -o invicti_results.html`
+
 `invicti -u example.com --template "vulnerability_scan_template" -o invicti_custom_scan.html`
 
 ---
