@@ -2,7 +2,12 @@
 Recon is the first and one of the most important steps in bug bounty. It’s all about gathering information on the target—like subdomains, technologies, endpoints, and anything that might help later during testing. Good recon can reveal hidden assets or weak points that others might miss. I usually use tools like Subfinder, Amass, and Nmap, and also do some manual digging with Google dorks and wayback URLs. The better the recon, the better the chances of finding real bugs.
 
 
-## 🔍 1. Web Dorking & Recon
+##SQL and Recon 
+-[SQL kit](https://adce626.github.io/SQLi-Pentest-Toolkit/#dorks)
+
+---
+
+##Web Dorking & Recon
 
 - [DorkGPT](https://www.dorkgpt.com/)
 - [Dork Engine](https://dorkengine.github.io/)
@@ -10,7 +15,7 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 
 ---
 
-## 🚫 2. IP Block Bypass
+## IP Block Bypass
 
 If your IP/localhost is blocked:
 
@@ -18,19 +23,19 @@ If your IP/localhost is blocked:
 
 ---
 
-## 📚 3. Web Exploitation Methodologies
+## Web Exploitation Methodologies
 
 - [HackTricks - Web Pentesting Methodology](https://book.hacktricks.wiki/en/pentesting-web/web-vulnerabilities-methodology.html)
 
 ---
 
-## 🔑 4. JWT Token Decoder
+##JWT Token Decoder
 
 - [JWT.io](https://jwt.io/)
 
 ---
 
-## 🌐 5. Subdomain Enumeration
+##Subdomain Enumeration
 
 `sublist3r -d example.com > sublist3r.txt`
 
@@ -46,12 +51,12 @@ If your IP/localhost is blocked:
 
 `dig example.com > dig.txt`
 
-### ➕ Merge All:
+###Merge All:
 
 `cat *.txt | sort | uniq > merged_subdomains.txt`
 
 
-## 🔎 6. Check Live Subdomains
+##Check Live Subdomains
 
 ### Using `httprobe`:
 
@@ -60,7 +65,7 @@ If your IP/localhost is blocked:
 `cat merged_subdomains.txt | httprobe -s -p https:443 | sed 's/https\?:\/\///' | tr -d ' :443' > clean_live.txt`
 
 
-## 🧠 7. Endpoint Discovery
+##Endpoint Discovery
 
 ### Hakrawler:
 
@@ -72,7 +77,7 @@ If your IP/localhost is blocked:
 
 `GoLinkFinder -d https://example.com | grep api`
 
-## 📌 8. Parameter Discovery
+##Parameter Discovery
 
 `paramspider -d example.com`
 
@@ -83,7 +88,7 @@ If your IP/localhost is blocked:
 
 ---
 
-## 📁 9. Directory Bruteforcing
+##Directory Bruteforcing
 
 `ffuf -u http://targetsite.com/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt`
 
@@ -91,13 +96,13 @@ If your IP/localhost is blocked:
 
 `python3 dirsearch.py -u http://targetsite.com/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -t 50 -e php,html,txt -o dirsearch_results.txt`
 
-### ➕ Recursive Bruteforce:
+###Recursive Bruteforce:
 
 `ffuf -u http://targetsite.com/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt -recursion`
 
 ---
 
-## 🕰️ 10. Wayback Machine URLs
+##Wayback Machine URLs
 
 `echo example.com | waybackurls > wayback_urls.txt`
 
@@ -107,7 +112,7 @@ If your IP/localhost is blocked:
 
 ---
 
-## 🔍 11. JavaScript Analysis
+##JavaScript Analysis
 
 `getJS --url https://example.com --output jsfiles.txt`
 
@@ -115,7 +120,7 @@ If your IP/localhost is blocked:
 
 ---
 
-## 🏷️ 12. Tech & CMS Fingerprinting
+## Tech & CMS Fingerprinting
 
 `whatweb https://example.com`
 
@@ -123,7 +128,7 @@ If your IP/localhost is blocked:
 
 ---
 
-## ⚙️ 13. Vulnerability Scanning
+## ⚙️Vulnerability Scanning
 
 ### Nuclei:
 
@@ -143,7 +148,7 @@ cat urls.txt | nuclei -t technologies/ -o tech_results.txt`
 
 ---
 
-## 🐞 15. SQL Injection Testing
+## 🐞SQL Injection Testing
 
 ### Silent:
 
