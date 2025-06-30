@@ -2,12 +2,12 @@
 Recon is the first and one of the most important steps in bug bounty. It’s all about gathering information on the target—like subdomains, technologies, endpoints, and anything that might help later during testing. Good recon can reveal hidden assets or weak points that others might miss. I usually use tools like Subfinder, Amass, and Nmap, and also do some manual digging with Google dorks and wayback URLs. The better the recon, the better the chances of finding real bugs.
 
 
-##SQL and Recon 
+## SQL and Recon 
 -[SQL kit](https://adce626.github.io/SQLi-Pentest-Toolkit/#dorks)
 
 ---
 
-##Web Dorking & Recon
+## Web Dorking & Recon
 
 - [DorkGPT](https://www.dorkgpt.com/)
 - [Dork Engine](https://dorkengine.github.io/)
@@ -29,13 +29,13 @@ If your IP/localhost is blocked:
 
 ---
 
-##JWT Token Decoder
+## JWT Token Decoder
 
 - [JWT.io](https://jwt.io/)
 
 ---
 
-##Subdomain Enumeration
+## Subdomain Enumeration
 
 `sublist3r -d example.com > sublist3r.txt`
 
@@ -51,7 +51,7 @@ If your IP/localhost is blocked:
 
 `dig example.com > dig.txt`
 
-###Merge All:
+### Merge All:
 
 `cat *.txt | sort | uniq > merged_subdomains.txt`
 
@@ -65,7 +65,7 @@ If your IP/localhost is blocked:
 `cat merged_subdomains.txt | httprobe -s -p https:443 | sed 's/https\?:\/\///' | tr -d ' :443' > clean_live.txt`
 
 
-##Endpoint Discovery
+## Endpoint Discovery
 
 ### Hakrawler:
 
@@ -88,7 +88,7 @@ If your IP/localhost is blocked:
 
 ---
 
-##Directory Bruteforcing
+## Directory Bruteforcing
 
 `ffuf -u http://targetsite.com/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt`
 
@@ -96,13 +96,13 @@ If your IP/localhost is blocked:
 
 `python3 dirsearch.py -u http://targetsite.com/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -t 50 -e php,html,txt -o dirsearch_results.txt`
 
-###Recursive Bruteforce:
+### Recursive Bruteforce:
 
 `ffuf -u http://targetsite.com/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt -recursion`
 
 ---
 
-##Wayback Machine URLs
+## Wayback Machine URLs
 
 `echo example.com | waybackurls > wayback_urls.txt`
 
@@ -112,7 +112,7 @@ If your IP/localhost is blocked:
 
 ---
 
-##JavaScript Analysis
+## JavaScript Analysis
 
 `getJS --url https://example.com --output jsfiles.txt`
 
