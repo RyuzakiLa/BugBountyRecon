@@ -4,6 +4,8 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 ## Checklist
 - [BB checklist](https://nemocyberworld.github.io/BugBountyCheckList/)
 
+  ---
+
 ## SQL and Recon 
 - [SQL kit](https://adce626.github.io/SQLi-Pentest-Toolkit/#dorks)
 
