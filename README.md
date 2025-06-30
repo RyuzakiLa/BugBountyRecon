@@ -1,6 +1,8 @@
 # 🐞 Bug Bounty Toolkit
 Recon is the first and one of the most important steps in bug bounty. It’s all about gathering information on the target—like subdomains, technologies, endpoints, and anything that might help later during testing. Good recon can reveal hidden assets or weak points that others might miss. I usually use tools like Subfinder, Amass, and Nmap, and also do some manual digging with Google dorks and wayback URLs. The better the recon, the better the chances of finding real bugs.
 
+## Checklist
+- [BB checklist](https://nemocyberworld.github.io/BugBountyCheckList/)
 
 ## SQL and Recon 
 - [SQL kit](https://adce626.github.io/SQLi-Pentest-Toolkit/#dorks)
