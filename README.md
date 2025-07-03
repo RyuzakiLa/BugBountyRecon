@@ -5,7 +5,7 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 - [BB checklist](https://nemocyberworld.github.io/BugBountyCheckList/)
 - [Recon](https://freedium.cfd/https://medium.com/infosec-ninja/advanced-bug-bounty-recon-playbook-2025-3f1e7dbe3c97)
 
-  ---
+---
 
 ## SQL and Recon 
 - [SQL kit](https://adce626.github.io/SQLi-Pentest-Toolkit/#dorks)
@@ -69,6 +69,10 @@ If your IP/localhost is blocked:
 
 `cat merged_subdomains.txt | httprobe -s -p https:443 | sed 's/https\?:\/\///' | tr -d ' :443' > clean_live.txt`
 
+### You can automate above this using my another script
+-[Agni](https://github.com/kalih4cker/agni.git)
+
+---
 
 ## Endpoint Discovery
 
@@ -90,6 +94,9 @@ If your IP/localhost is blocked:
 
 # Alternative (if above tools fail):
 (echo "example.com" | gau --subs; echo "example.com" | waybackurls) | grep '=' 
+
+## In this blog you will get one script you can automate some part of it 
+-[Blog link](https://medium.com/legionhunters/how-i-chained-recon-and-idor-to-access-100s-of-credit-cards-0ca50eb82a74)
 
 ---
 
