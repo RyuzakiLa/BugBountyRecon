@@ -92,7 +92,7 @@ If your IP/localhost is blocked:
 
 `arjun -u https://example.com`
 
-# Alternative (if above tools fail):
+## Alternative (if above tools fail):
 (echo "example.com" | gau --subs; echo "example.com" | waybackurls) | grep '=' 
 
 ## In this blog you will get one script you can automate some part of it 
