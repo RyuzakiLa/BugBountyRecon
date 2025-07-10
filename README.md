@@ -7,6 +7,12 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 
 ---
 
+## Recon automation
+
+-[reconftw](https://github.com/six2dez/reconftw.git)
+
+---
+
 ## SQL and Recon 
 - [SQL kit](https://adce626.github.io/SQLi-Pentest-Toolkit/#dorks)
 
