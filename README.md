@@ -192,6 +192,20 @@ cat urls.txt | nuclei -t technologies/ -o tech_results.txt`
 ### Aggressive:
 `sqlmap -u "https://example.com/page.php?id=1" --batch --level=5 --risk=3 --tamper=space2comment,between --technique=BEUSTQ --dbs`
 
+## Automate tools
+
+| Tool                  | Description                                           | Link                                                                        |
+| --------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------- |
+| **XSStrike**          | Payload generator with context analysis               | [GitHub](https://github.com/s0md3v/XSStrike)                                |
+| **DalFox**            | Fast automated XSS scanner with smart filtering       | [GitHub](https://github.com/hahwul/dalfox)                                  |
+| **XSSHunter**         | Detects blind XSS via HTTP/Email callbacks            | [GitHub](https://github.com/mandatoryprogrammer/xsshunter-express)          |          
+| **KXSS**              | Identifies injectable reflection points               | [GitHub](https://github.com/Emoe/kxss)                                      |
+| **Interactsh**        | OOB interaction detection platform (ProjectDiscovery) | [GitHub](https://github.com/projectdiscovery/interactsh)                    | 
+| **Burp Collaborator** | Built-in OOB tool in Burp Suite Professional          | [Docs](https://portswigger.net/burp/documentation/collaborator)             |                              
+| **Custom DNS Logger** | Self-hosted DNS loggers for blind vuln detection      | [GitHub](https://github.com/bugbountylog/Custom-Subdomain-Logger) /         |
+                                                                                   [gitdns](https://github.com/anshumanbh/gitdns) /                           | 
+                                                                                   [dnsbin](https://github.com/kljunowsky/dnsbin)                             
+
 
 ## 🧰 16. Other Vulnerability Scanners & Tools
 
