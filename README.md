@@ -10,6 +10,7 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 ## Recon automation
 
 -[reconftw](https://github.com/six2dez/reconftw.git)
+-[recOn](https://github.com/m0rd3caii/rec0n.git)
 
 ---
 
