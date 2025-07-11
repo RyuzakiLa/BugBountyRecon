@@ -202,9 +202,8 @@ cat urls.txt | nuclei -t technologies/ -o tech_results.txt`
 | **KXSS**              | Identifies injectable reflection points               | [GitHub](https://github.com/Emoe/kxss)                                      |
 | **Interactsh**        | OOB interaction detection platform (ProjectDiscovery) | [GitHub](https://github.com/projectdiscovery/interactsh)                    | 
 | **Burp Collaborator** | Built-in OOB tool in Burp Suite Professional          | [Docs](https://portswigger.net/burp/documentation/collaborator)             |                              
-| **Custom DNS Logger** | Self-hosted DNS loggers for blind vuln detection      | [GitHub](https://github.com/bugbountylog/Custom-Subdomain-Logger) /         |
-                                                                                   [gitdns](https://github.com/anshumanbh/gitdns) /                           | 
-                                                                                   [dnsbin](https://github.com/kljunowsky/dnsbin)                             
+| **Custom DNS Logger** | Self-hosted DNS loggers for blind vuln detection      | [GitHub](https://github.com/bugbountylog/Custom-Subdomain-Logger) /[gitdns](https://github.com/anshumanbh/gitdns) /[dnsbin](https://github.com/kljunowsky/dnsbin)      |
+                                                                                                               
 
 
 ## 🧰 16. Other Vulnerability Scanners & Tools
