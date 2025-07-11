@@ -14,6 +14,22 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 
 ---
 
+## Search Engine for recon
+
+- [Github](https://github.com/search)
+- [PublicSourceCode](https://publicwww.com/websites)
+
+---
+
+## Git Recon
+
+-[TruffleHog](https://github.com/trufflesecurity/trufflehog) 
+-[GitLeaks](https://github.com/gitleaks/gitleaks) 
+-[GitDorker](https://github.com/obheda12/GitDorker) 
+-[Repo-supervisor](https://github.com/auth0/repo-supervisor) 
+
+---
+
 ## SQL and Recon 
 - [SQL kit](https://adce626.github.io/SQLi-Pentest-Toolkit/#dorks)
 
