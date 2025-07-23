@@ -130,7 +130,7 @@ If your IP/localhost is blocked:
  
 `GoLinkFinder -d https://example.com | grep api`
 
-##Parameter Discovery
+## Parameter Discovery
 
 `paramspider -d example.com`
 
@@ -138,7 +138,7 @@ If your IP/localhost is blocked:
 
 `echo "https://example.com" | hakrawler > hak.txt`
 
-after above cmd use this 'cat "hak.txt"  | grep "=" > param.txt`
+after above cmd use this `cat "hak.txt"  | grep "=" > param.txt`
 
 `gospider -subs -robots -sitemap -s https://example.com > gospider.txt`
 then do grep and find out end points or parameter then do same for subdomains and all
