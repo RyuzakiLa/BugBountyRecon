@@ -124,8 +124,7 @@ If your IP/localhost is blocked:
 * [GoSpider](https://github.com/jaeles-project/gospider)
 * [Katana](https://github.com/projectdiscovery/katana)
 * [GoLinkFinder](https://github.com/0xsha/GoLinkFinder)
-* [gospider]
-  `go install github.com/jaeles-project/gospider@latest`
+* [gospider](github.com/jaeles-project/gospider@latest)
 * [fallparams](https://github.com/ImAyrix/fallparams)
 * [go](https://github.com/tomnomnom/gf@latest)
  
@@ -138,7 +137,8 @@ If your IP/localhost is blocked:
 `arjun -u https://example.com`
 
 `echo "https://example.com" | hakrawler > hak.txt`
-'cat "hak.txt"  | grep "=" > param.txt`
+
+after above cmd use this 'cat "hak.txt"  | grep "=" > param.txt`
 
 `gospider -subs -robots -sitemap -s https://example.com > gospider.txt`
 then do grep and find out end points or parameter then do same for subdomains and all
