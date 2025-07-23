@@ -11,6 +11,15 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
   
 ---
 
+## Things to look in web
+- DOM and sorce code [Find endpoints and js etc.,]
+- robots.txt, sitemap.xml, 
+- security.txt (site.com/.well-known/security.txt)
+- Network tab (Deveoper option)
+- Techonologies (wappalyzer,builtwith..etc.,)
+
+---
+
 ## Recon automation
 
 -[reconftw](https://github.com/six2dez/reconftw.git)
