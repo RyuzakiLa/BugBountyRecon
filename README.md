@@ -22,8 +22,8 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 
 ## Recon automation
 
--[reconftw](https://github.com/six2dez/reconftw.git)
--[recOn](https://github.com/m0rd3caii/rec0n.git)
+- [reconftw](https://github.com/six2dez/reconftw.git)
+- [recOn](https://github.com/m0rd3caii/rec0n.git)
 
 ---
 
@@ -36,10 +36,10 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 
 ## Git Recon
 
--[TruffleHog](https://github.com/trufflesecurity/trufflehog) 
--[GitLeaks](https://github.com/gitleaks/gitleaks) 
--[GitDorker](https://github.com/obheda12/GitDorker) 
--[Repo-supervisor](https://github.com/auth0/repo-supervisor) 
+- [TruffleHog](https://github.com/trufflesecurity/trufflehog) 
+- [GitLeaks](https://github.com/gitleaks/gitleaks) 
+- [GitDorker](https://github.com/obheda12/GitDorker) 
+- [Repo-supervisor](https://github.com/auth0/repo-supervisor) 
 
 ---
 
