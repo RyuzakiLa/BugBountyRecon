@@ -138,7 +138,7 @@ If your IP/localhost is blocked:
 `arjun -u https://example.com`
 
 `echo "https://example.com" | hakrawler > hak.txt`
-'cat "hak.txt"  | grep "=" > param.txt 
+'cat "hak.txt"  | grep "=" > param.txt`
 
 `gospider -subs -robots -sitemap -s https://example.com > gospider.txt`
 then do grep and find out end points or parameter then do same for subdomains and all
