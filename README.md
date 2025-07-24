@@ -9,6 +9,7 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 - [Login_page_finder](https://github.com/iamthefrogy/LoginLocator)
 - [Default_creds](https://github.com/iamthefrogy/DefaultCreds-cheat-sheet)
 - [Fuzz](https://www.freecodecamp.org/news/web-security-fuzz-web-applications-using-ffuf/)
+- [Check List](https://freedium.cfd//https://infosecwriteups.com/recon-to-master-the-complete-bug-bounty-checklist-95b80ea55ff0)
 - 
   
 ---
