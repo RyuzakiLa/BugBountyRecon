@@ -1,8 +1,15 @@
 # 🐞 Bug Bounty Toolkit
 Recon is the first and one of the most important steps in bug bounty. It’s all about gathering information on the target—like subdomains, technologies, endpoints, and anything that might help later during testing. Good recon can reveal hidden assets or weak points that others might miss. I usually use tools like Subfinder, Amass, and Nmap, and also do some manual digging with Google dorks and wayback URLs. The better the recon, the better the chances of finding real bugs.
 
+## Cheklist
+- [nemocyberworld](https://nemocyberworld.github.io/BugBountyCheckList/)
+- [Sneho](https://github.com/sehno/Bug-bounty/blob/master/bugbounty_checklist.md)
+- [Galaxy](https://github.com/0xmaximus/Galaxy-Bugbounty-Checklist)
+- [Gowathams](https://gowthams.gitbook.io/bughunter-handbook/checklists)
+
+---
+
 ## Must Check links
-- [BB checklist](https://nemocyberworld.github.io/BugBountyCheckList/)
 - [Web_app_security](https://chintangurjar.com/checklists/web-application-pentest-checklist/)
 - [Recon](https://freedium.cfd/https://medium.com/infosec-ninja/advanced-bug-bounty-recon-playbook-2025-3f1e7dbe3c97)
 - [Frogy_tools-autoupdate_list](https://github.com/iamthefrogy/BountyHound)
