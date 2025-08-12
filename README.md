@@ -51,11 +51,6 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 - [GitDorker](https://github.com/obheda12/GitDorker) 
 - [Repo-supervisor](https://github.com/auth0/repo-supervisor) 
 
----
-
-## FileFitecher
-- [Shivang](https://github.com/shivangmauryaa/FileFetcher)
-
 --- 
 
 ## SQL and Recon 
