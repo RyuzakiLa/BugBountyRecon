@@ -3,6 +3,7 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 
 ## Cheklist
 - [nemocyberworld](https://nemocyberworld.github.io/BugBountyCheckList/)
+- [Checklist](https://github.com/shubhdhungana/bug_bounty_checklist)
 
 ---
 
