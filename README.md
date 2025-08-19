@@ -6,19 +6,6 @@ Recon is the first and one of the most important steps in bug bounty. It’s all
 
 ---
 
-## Must Check links
-- [Payload](https://github.com/EdOverflow/bugbounty-cheatsheet/tree/master/cheatsheets)
-- [Web_app_security](https://chintangurjar.com/checklists/web-application-pentest-checklist/)
-- [Recon](https://freedium.cfd/https://medium.com/infosec-ninja/advanced-bug-bounty-recon-playbook-2025-3f1e7dbe3c97)
-- [Frogy_tools-autoupdate_list](https://github.com/iamthefrogy/BountyHound)
-- [Login_page_finder](https://github.com/iamthefrogy/LoginLocator)
-- [Default_creds](https://github.com/iamthefrogy/DefaultCreds-cheat-sheet)
-- [Fuzz](https://www.freecodecamp.org/news/web-security-fuzz-web-applications-using-ffuf/)
-- [Check List](https://freedium.cfd//https://infosecwriteups.com/recon-to-master-the-complete-bug-bounty-checklist-95b80ea55ff0)
-- 
-  
----
-
 ## Things to look in web
 - DOM and sorce code [Find endpoints and js etc.,]
 - robots.txt, sitemap.xml, 
